@@ -1,5 +1,9 @@
 # Welcome to your Lovable project
 
+## Audio Relay Hub - Voice Assistant Application
+
+This is a modern voice assistant application built with React, TypeScript, and Vapi AI.
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/dbecaef2-9f32-41e6-b2bb-de8ab9cbcb25
