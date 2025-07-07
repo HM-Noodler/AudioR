@@ -4,6 +4,12 @@
 
 This is a modern voice assistant application built with React, TypeScript, and Vapi AI.
 
+### Features:
+- 🎤 Real-time voice interaction
+- 🎵 Audio processing with volume indicators
+- 📱 Modern, responsive UI
+- 🔊 Speech-to-text transcription
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/dbecaef2-9f32-41e6-b2bb-de8ab9cbcb25
