@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Voice Chat</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>🎤 Simple Voice Chat</h1>
+        <p>Phase 1: Pure JavaScript Implementation</p>
+      </header>
+
+      <main class="chat-interface">
+        <!-- Connection Status -->
+        <div class="status-panel">
+          <div class="status-indicator" id="statusIndicator">
+            <span class="status-dot" id="statusDot"></span>
+            <span class="status-text" id="statusText">Disconnected</span>
+          </div>
+          <button class="connect-btn" id="connectBtn">Connect</button>
+        </div>
+
+        <!-- Voice Controls -->
+        <div class="voice-controls">
+          <div class="mic-container">
+            <button class="mic-btn" id="micBtn" disabled>
+              <div class="mic-icon" id="micIcon">🎤</div>
+              <div class="recording-animation" id="recordingAnimation"></div>
+            </button>
+            <p class="mic-status" id="micStatus">Click Connect to start</p>
+          </div>
+
+          <!-- Volume Indicator -->
+          <div class="volume-meter" id="volumeMeter">
+            <div class="volume-bars">
+              <div class="volume-bar"></div>
+              <div class="volume-bar"></div>
+              <div class="volume-bar"></div>
+              <div class="volume-bar"></div>
+              <div class="volume-bar"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chatMessages">
+          <div class="message system-message">
+            <div class="message-content">
+              <strong>System:</strong> Welcome to Simple Voice Chat! Click Connect to begin.
+            </div>
+            <div class="message-time">Just now</div>
+          </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+          <input type="text" id="messageInput" placeholder="Type a message..." disabled>
+          <button class="send-btn" id="sendBtn" disabled>Send</button>
+        </div>
+      </main>
+
+      <footer>
+        <div class="info">
+          <p><strong>Learning Path:</strong> Phase 1 - Vanilla JavaScript</p>
+          <p><strong>Next:</strong> Phase 2 - Add Node.js Backend</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
